@@ -212,6 +212,8 @@ namespace AdvertBoard.Tests
         {
             //Arrange
             var newAdvertDto = _testAdvertDtos.First(a => a.Title == "Грузоперевозки Газель");
+            newAdvertDto.Id = 0;
+
             var savedAdvert = new Advert();
 
             _advertRepositoryMock.Setup(repo => repo.Add(It.IsAny<Advert>()))
@@ -221,7 +223,7 @@ namespace AdvertBoard.Tests
             _advertService.SaveAdvert(newAdvertDto);
 
             //Assert
-            Assert.AreEqual(savedAdvert.Title, "Грузоперевозки Газель");
+            Assert.AreEqual("Грузоперевозки Газель", savedAdvert.Title);
         }
 
         [Test]
