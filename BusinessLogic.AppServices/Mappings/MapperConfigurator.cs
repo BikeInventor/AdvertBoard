@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using BusinessLogic.Domain;
 using BusinessLogic.Model;
+using BusinessLogic.Model.Dtos;
 using DataAccessLayer.Entities;
 
 namespace BusinessLogicLayer.Mappings

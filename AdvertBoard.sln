@@ -9,15 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{53814023-5A2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{8C97D42C-5AFD-47B8-BB17-A501934A0997}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic.AppServices", "BusinessLayer\BusinessLogic.AppServices.csproj", "{AE30E17A-1600-4B33-83F9-7935605C2E90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic.AppServices", "BusinessLogic.AppServices\BusinessLogic.AppServices.csproj", "{AE30E17A-1600-4B33-83F9-7935605C2E90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Domain", "DataLayer.Repository\DataAccess.Domain.csproj", "{ACA21CDD-5CD2-4CBE-B1EB-D4C80EA94255}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Domain", "DataAccess.Domain\DataAccess.Domain.csproj", "{ACA21CDD-5CD2-4CBE-B1EB-D4C80EA94255}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Abstraction", "DataAccess.Abstraction\DataAccess.Abstraction.csproj", "{9FCD9123-19B5-4E01-B6D4-52E931A3CB26}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.EntityFramework", "DataAccess.EntityFramework\DataAccess.EntityFramework.csproj", "{9D2B847D-2FAA-4FA8-9E0D-CD4BC0133688}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic.Model", "BusinessLogic.Domain\BusinessLogic.Model.csproj", "{36539192-5E7D-4AA9-A430-7F3E534B182C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic.Model", "BusinessLogic.Model\BusinessLogic.Model.csproj", "{36539192-5E7D-4AA9-A430-7F3E534B182C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FE0C3633-83E1-4F7E-9EDE-C6592234C377}"
 EndProject

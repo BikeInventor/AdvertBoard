@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
 using BusinessLogic.Model;
+using BusinessLogic.Model.Dtos;
 using BusinessLogicLayer.Interfaces;
 using DataAccess.Abstraction;
 using DataAccessLayer.Entities;
@@ -35,7 +36,7 @@ namespace BusinessLogicLayer.Services
             return Mapper.Map<Advert, AdvertDto>(advert);
         }
 
-        public void SaveAdvert(BusinessLogic.Model.AdvertDto advert)
+        public void SaveAdvert(AdvertDto advert)
         {
             if (advert == null)
             {

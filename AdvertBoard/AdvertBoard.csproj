@@ -72,11 +72,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLayer\BusinessLogic.AppServices.csproj">
+    <ProjectReference Include="..\BusinessLogic.AppServices\BusinessLogic.AppServices.csproj">
       <Project>{AE30E17A-1600-4B33-83F9-7935605C2E90}</Project>
       <Name>BusinessLogic.AppServices</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BusinessLogic.Domain\BusinessLogic.Model.csproj">
+    <ProjectReference Include="..\BusinessLogic.Model\BusinessLogic.Model.csproj">
       <Project>{36539192-5e7d-4aa9-a430-7f3e534b182c}</Project>
       <Name>BusinessLogic.Model</Name>
     </ProjectReference>
@@ -88,7 +88,7 @@
       <Project>{9d2b847d-2faa-4fa8-9e0d-cd4bc0133688}</Project>
       <Name>DataAccess.EntityFramework</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DataLayer.Repository\DataAccess.Domain.csproj">
+    <ProjectReference Include="..\DataAccess.Domain\DataAccess.Domain.csproj">
       <Project>{aca21cdd-5cd2-4cbe-b1eb-d4c80ea94255}</Project>
       <Name>DataAccess.Domain</Name>
     </ProjectReference>

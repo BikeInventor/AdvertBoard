@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BusinessLogic.Domain
+namespace BusinessLogic.Model.Dtos
 {
     public class UserDto : DtoBase<long>
     {

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using AutoMapper;
 using BusinessLogic.Model;
+using BusinessLogic.Model.Dtos;
 using BusinessLogicLayer.Interfaces;
 using BusinessLogicLayer.Mappings;
 using BusinessLogicLayer.Services;

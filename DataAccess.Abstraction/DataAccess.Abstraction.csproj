@@ -53,11 +53,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLogic.Domain\BusinessLogic.Model.csproj">
+    <ProjectReference Include="..\BusinessLogic.Model\BusinessLogic.Model.csproj">
       <Project>{36539192-5E7D-4AA9-A430-7F3E534B182C}</Project>
       <Name>BusinessLogic.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DataLayer.Repository\DataAccess.Domain.csproj">
+    <ProjectReference Include="..\DataAccess.Domain\DataAccess.Domain.csproj">
       <Project>{ACA21CDD-5CD2-4CBE-B1EB-D4C80EA94255}</Project>
       <Name>DataAccess.Domain</Name>
     </ProjectReference>

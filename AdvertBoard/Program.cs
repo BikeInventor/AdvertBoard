@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using IoC;
 using BusinessLogicLayer.Interfaces;
 using BusinessLogicLayer.Mappings;
@@ -18,6 +19,11 @@ namespace AdvertBoard
             {
                 var service = container.Resolve<IAdvertService>();
                 var allAdverts = service.GetAllAdverts();
+                foreach (var advert in allAdverts)
+                {
+                    Console.WriteLine($"{advert.Title, 30}  |  { advert.Cities.FirstOrDefault()?.Name, 15 }  |" +
+                                      $"  {advert.Price} {(advert.Price.HasValue ? "руб." : string.Empty)}");
+                }
             }
         
             Console.ReadLine();

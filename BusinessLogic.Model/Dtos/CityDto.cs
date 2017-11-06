@@ -1,4 +1,4 @@
-﻿namespace BusinessLogic.Domain
+﻿namespace BusinessLogic.Model.Dtos
 {
     public class CityDto : DtoBase<int>
     {

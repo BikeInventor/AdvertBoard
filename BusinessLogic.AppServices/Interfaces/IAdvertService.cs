@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using BusinessLogic.Model;
+using BusinessLogic.Model.Dtos;
 
 namespace BusinessLogicLayer.Interfaces
 {
