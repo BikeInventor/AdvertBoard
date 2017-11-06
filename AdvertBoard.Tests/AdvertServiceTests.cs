@@ -245,5 +245,20 @@ namespace AdvertBoard.Tests
                 Assert.IsInstanceOf<ArgumentNullException>(ex);
             }
         }
+
+        [Test]
+        public void GetMostPopular_ReturnsMostPopularAdverts()
+        {
+            //Arrange
+            _advertRepositoryMock.Setup(repo => repo.All()).Returns(_testAdverts.AsQueryable());
+
+            //Act
+            var topAdverts = _advertService.GetMostPopular(2);
+
+            //Assert
+            Assert.AreEqual(2, topAdverts.Count);
+            Assert.AreEqual(2, topAdverts[0].Id);
+            Assert.AreEqual(3, topAdverts[1].Id);
+        }
     }
 }
