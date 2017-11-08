@@ -49,7 +49,6 @@
   <ItemGroup>
     <Compile Include="IDataSession.cs" />
     <Compile Include="IRepository.cs" />
-    <Compile Include="IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
